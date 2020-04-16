@@ -25,7 +25,7 @@ const JobBoard = (props) => (
                 <p>{props.job.contract}</p>
                 <p>{props.job.location}</p>
             </div>
-            <hr/>
+            {/* <hr/> */}
             <p>{props.job.languages && props.job.tools}</p>
         </div>
 );
